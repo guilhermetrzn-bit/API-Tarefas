@@ -2,7 +2,7 @@ import express from 'express';
 import taskRoutes from './routes/taskRoutes.js';
 
 const app = express();
-const PORTA = 3333;
+const PORTA = 3333; //porta url
 
 app.use(express.json());
 
